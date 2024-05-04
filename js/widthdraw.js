@@ -6,7 +6,6 @@ document.getElementById('widthBtn').addEventListener('click', function(){
     // access previous clear amount
     const previousClearbalance=getvaluebyInnertext('clearBlance');
     
-    
     if (previousClearbalance>widthAmount){
         // make widthdraw
         const newWidthdraw=widthAmount+previousWidthdraamount;
