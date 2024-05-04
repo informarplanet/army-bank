@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: cadetblue;
+}
+.title{
+    margin: auto;
+    text-align: center;
+    color: burlywood;
+}
+.login_container{
+    background-color:blueviolet;
+    margin: auto;
+    width: 50%;
+    padding: 8px;
+}
+.sec_title{
+    text-align: center;
+}
+.user_name{
+    display: block;
+    width: 75%;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.submit_btn{
+    padding: 5px;
+    width: 100px;
+    border-radius: 20px;
+    background-color:tomato;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.submit_btn:hover{
+    background-color:cornflowerblue;
+}
+
+.section-container{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 75%;
+    color: white;
+    margin-top: 15px;
+
+}
+.amountdeposite{
+    padding: 30px;
+    border-radius: 5px;
+    width: 250px;
+    background-color: sandybrown;
+}
+.amountwidth{
+    padding: 30px;
+    border-radius: 5px;
+    width: 250px;
+    background-color: tomato;
+}
+.amounclear{
+    padding: 30px;
+    border-radius: 5px;
+    width: 250px;
+    background-color: skyblue;
+}
+
+.depotitle{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.amountwidthcont{
+    padding: 30px;
+    border-radius: 5px;
+    width: 250px;
+    background-color:blueviolet;
+}
+
+.amountwidthcont2{
+    padding: 30px;
+    border-radius: 5px;
+    width: 250px;
+    background-color:cornflowerblue;
+}
+
+.INPUT-FIELD{
+    width: 100%;
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: 5px;
+    height: 30px;
+}
+
+.submit-btn{
+    margin-top: 15px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.submit-btn:hover{
+    background-color:deeppink;
+}
+
+
+.submit-btn2{
+    margin-top: 15px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    background-color:indigo;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.submit-btn2:hover{
+    background-color:coral;
+}
