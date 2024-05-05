@@ -18,7 +18,12 @@ document.getElementById('depoBtn').addEventListener('click', function(){
     // update clear balance
     const newClearbalance=depositeAmount+previousClearbalance;
     insertValue('clearBlance',newClearbalance);
+<<<<<<< HEAD
     // make log
     insertLog(depositeAmount,'deposite',newClearbalance)
 
 })
+=======
+
+})
+>>>>>>> 11994737502c8697c082a70bb67e205c940b970c

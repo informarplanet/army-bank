@@ -11,7 +11,7 @@ document.getElementById('submit_btn').addEventListener('click',function(){
     }else if(userpasswordValue==""){
         alert("input password")
     }else if(usernameValue=="admin@armybank.com" && userpasswordValue=="Admin@123" ){
-        location.href='bank.html/?user={usernameValue}'
+        location.href='bank.html'
         const user=document.getElementById('userNamedis');
         console.log(user)
         user.innerText=usernameValue;
