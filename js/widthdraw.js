@@ -20,6 +20,7 @@ document.getElementById('widthBtn').addEventListener('click', function(){
         // update clear balance
         const newClearbalance=previousClearbalance-widthAmount;
         insertValue('clearBlance',newClearbalance);
+        // create log
         insertLog(widthAmount,'Widthdra',newClearbalance)
     }else{
         alert('you have not enough money')
